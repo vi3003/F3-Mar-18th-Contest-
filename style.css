@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+#fetchDataBtn {
+    display: block;
+    padding: 7px 15px;
+    margin: 10px auto;
+    background-color: #ca98f3;
+    color: black;
+}
+#fetchDataBtn:hover{
+    background-color: #f8bad1;
+    color: black;
+}
+.Container {
+    padding: 0 15px;
+}
+table, th, td {
+    border: 1px solid black;
+}
+td {
+    text-align: center;
+}
+th {
+    background-color: #ca98f3;
+    color: rgb(12, 12, 12);
+  }
+td:first-child {
+    text-align: start;
+}
+tr:nth-child(even) {
+    background-color: #f8bad1;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
